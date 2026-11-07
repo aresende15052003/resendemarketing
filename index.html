@@ -10,17 +10,17 @@
   <!-- Compartilhamento (WhatsApp / Instagram / etc.) -->
   <meta property="og:title" content="Resende | Marketing Viral">
   <meta property="og:description" content="Descubra o segredo que me faz ganhar mais de 1.000 seguidores por dia e transformá-los em clientes.">
-  <meta property="og:image" content="assets/perfil.jpg">
+  <meta property="og:image" content="perfil.jpg">
   <meta property="og:type" content="website">
 
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
   <!-- Fontes: só os pesos usados, com display=swap -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Mrs+Saint+Delafield&family=Space+Mono&family=Manrope:wght@500;700;800&display=swap">
 
-  <link rel="preload" as="image" href="assets/perfil-360.webp" type="image/webp">
+  <link rel="preload" as="image" href="perfil-360.webp" type="image/webp">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -39,11 +39,11 @@
       <div class="avatar reveal" style="--d:0">
         <span class="avatar__ring" aria-hidden="true"></span>
         <!-- FOTO DE PERFIL (recortada, fundo transparente): troque os arquivos
-             em /assets mantendo os nomes — perfil-360.webp, perfil.webp e
+             na pasta principal mantendo os nomes — perfil-360.webp, perfil.webp e
              perfil-360.png (quadrados, com fundo transparente) -->
         <picture>
-          <source type="image/webp" srcset="assets/perfil-360.webp 360w, assets/perfil.webp 720w" sizes="108px">
-          <img class="avatar__img" src="assets/perfil-360.png"
+          <source type="image/webp" srcset="perfil-360.webp 360w, perfil.webp 720w" sizes="108px">
+          <img class="avatar__img" src="perfil-360.png"
                width="360" height="360" alt="Foto de Resende" fetchpriority="high" decoding="async">
         </picture>
       </div>
@@ -63,12 +63,12 @@
     </section>
 
     <!-- ============ SEÇÃO 3 — PROTOCOLO VIRAL (banner clicável com CTA) ============
-         Para trocar a arte: substitua assets/banner-protocolo.webp
+         Para trocar a arte: substitua banner-protocolo.webp
          (mesmo formato retangular, ~1200 x 618 px). Link em config.js. -->
     <section class="protocol reveal" style="--d:4" aria-label="Protocolo Viral">
       <a class="banner" data-link="linkBanner" href="#">
         <div class="banner__inner">
-          <img class="banner__img" src="assets/banner-protocolo.webp" width="1200" height="618"
+          <img class="banner__img" src="banner-protocolo.webp" width="1200" height="618"
                alt="Protocolo Viral — descubra o segredo que me faz ganhar mais de 1000 seguidores por dia e transformá-los em clientes."
                decoding="async">
         </div>
